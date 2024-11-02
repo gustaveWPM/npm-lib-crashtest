@@ -29,6 +29,10 @@ install:
 build:
 	$(PM) run build
 
+# @Mirror
+test:
+	$(PM) run test
+
 # @Alias
 check-format:
 	$(PM) run ci:format-check
@@ -42,4 +46,4 @@ check-exports:
 	$(PM) run ci:check-exports
 
 # @Override
-ci: check-format check-exports typecheck-project
+ci: check-format check-exports test typecheck-project
