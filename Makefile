@@ -37,5 +37,9 @@ check-format:
 typecheck-project:
 	$(PM) run ci:typecheck-project
 
+# @Alias
+check-exports:
+	$(PM) run ci:check-exports
+
 # @Override
-ci: check-format typecheck-project
+ci: check-format check-exports typecheck-project
