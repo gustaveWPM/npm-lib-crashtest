@@ -1,7 +1,7 @@
 {
   "main": "dist/index.js",
   "name": "@guswpm/npm-lib-crashtest",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hello world",
   "keywords": [
     "Gustave",
@@ -27,7 +27,7 @@
     "build": "tsc",
     "test": "vitest run",
     "dev": "vitest",
-    "local-release": "make local-release",
+    "local-release": "changeset version && changeset publish",
     "ci:check-exports": "attw --pack . --ignore-rules=cjs-resolves-to-esm",
     "ci:format-check": "prettier --check .",
     "ci:typecheck-project": "tsc --noEmit --pretty",
