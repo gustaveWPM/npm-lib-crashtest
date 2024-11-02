@@ -24,7 +24,9 @@
     "prepare": "husky",
     "format": "prettier --log-level warn --write .",
     "build": "tsc",
-    "ci": "npm run build"
+    "ci:format-check": "prettier --check .",
+    "ci:typecheck-project": "tsc --noEmit --pretty",
+    "ci": "make ci"
   },
   "devDependencies": {
     "@commitlint/config-conventional": "^19.5.0",
