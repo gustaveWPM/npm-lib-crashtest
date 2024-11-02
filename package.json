@@ -1,0 +1,19 @@
+{
+    "name": "@guswpm/npm-lib-crashtest",
+    "version": "1.0.0",
+    "description": "Hello world",
+    "keywords": ["Gustave", "WknardomschtfredschToirdhealbhachSainzoikouqanheuqoucingomiCplkadbsakhioi"],
+    "homepage": "https://github.com/gustaveWPM/npm-lib-crashtest",
+    "bugs": {
+      "url": "https://github.com/gustaveWPM/npm-lib-crashtest/issues"
+    },
+    "author": "Gustave WknardomschtfredschToirdhealbhachSainzoikouqanheuqoucingomiCplkadbsakhioi <https://github.com/gustaveWPM>",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/gustaveWPM/npm-lib-crashtest.git"
+    },
+    "files": ["dist"],
+    "type": "module",
+
+    "license": "MIT"
+}
