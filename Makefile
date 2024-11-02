@@ -46,4 +46,15 @@ check-exports:
 	$(PM) run ci:check-exports
 
 # @Override
+local-release: changeset-version changeset-publish
+
+# @Override
 ci: check-format check-exports test typecheck-project
+
+# ***
+
+changeset-version:
+	$(PM) run changeset version
+
+changeset-publish:
+	$(PM) run changeset publish
